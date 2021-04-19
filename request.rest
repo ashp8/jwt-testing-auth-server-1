@@ -1,0 +1,12 @@
+GET http://localhost:3000/posts
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYmFzaCIsImlhdCI6MTYxNzc3MTQxMX0._Ry2UvQfzOOUBdt5sOH603NowOJcCUHmqlChk1ihNIY
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "bash"
+}
+
